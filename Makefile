@@ -3,7 +3,7 @@ ifeq ($(shell uname -s), Darwin)
 	INSTALLDIR=/usr/local/lib/
 else
 	TARGET=libqr.so
-	INSTALLDIR=/usr/local/lib64/
+	INSTALLDIR=/usr/lib/
 endif
 
 all:
