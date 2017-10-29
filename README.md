@@ -20,7 +20,7 @@ Ngx_QRCode是基于Lua+ffi+C开发的，生成QRCode的小工具。支持三种�
 
 * config下面是配置文件，nginx的配置和项目参数的配置。
 * `content.lua`是项目的入口文件。
-* library文件夹是核心库文件，有loln -s /usr/local/openresty/lualib/libqr.so /usr/lib/g，qr，utils。
+* library文件夹是核心库文件，有log，qr，utils。
 * `main.c` 和 `Makefile`是项目中的C相关的。
 
 ### 项目依赖
