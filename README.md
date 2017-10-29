@@ -36,8 +36,7 @@ mv ./libqr.so /usr/lib/
 sudo ldconfig
 ```
 * 将nginx配置修改成自己的目录即可。
-
-### 查看访问
+* 携带必要的参数即可生成二维码，查看访问
 #### json形式输出
 ```
 http://qr.dev/?data=https://www.dyike.com&out_type=json
